@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<title></title>
+   <link rel="stylesheet" type="text/css" href="../个人主页/index.css">
+   <link href="https://fonts.font.im/css?family=PT+Serif" rel="stylesheet">
+</head>
+<body style="background-color: rgb(40,39,47);">
+    <div class="myPage1_div"  onmouseenter="imgChangingByImgID('icon',true)" onmouseleave="imgChangingByImgID('icon',false)">
+        <a href="../个人主页/aboutme.html"><p class="myHomePageP1">ABOUT ME</p></a>
+        <img id="icon" class="img1 " style="cursor:hand" src="../个人主页/img/icon.png" width="40px" onclick="jumpToHtml('img1')">
+    </div>
+
+    <div class="myPage2_div" onmouseenter="imgChangingByImgID('icon2',true)" onmouseleave="imgChangingByImgID('icon2',false)">
+        <a href="../个人主页/work_dssj.html"><p class="myHomePageP2">WORKS</p></a>
+        <img id="icon2" class="img2 " style="cursor:hand"  src="../个人主页/img/icon2.png" width="40px" onclick="jumpToHtml('img2')">
+    </div>
+
+    <div class="myPage3_div" onmouseenter="imgChangingByImgID('icon3',true)" onmouseleave="imgChangingByImgID('icon3',false)">
+       <a  href="../个人主页/contactme.html"><p class="myHomePageP3">CONTACT ME</p></a>
+       <img id="icon3" class="img3 " style="cursor:hand" src="../个人主页/img/icon3.png" width="40px" onclick="jumpToHtml('img3')">
+   </div>
+    <img src="../个人主页/img/line(bg).png">
+    <p class="myHomePageP4">Personal</p>
+    <p class="myHomePageP5">Home Page</p>
+</div>
+<script type="text/javascript">
+
+    //根据图片名称获得对应img标签
+    function getImgByImgID(imgId){
+        var img=document.getElementById(imgId);
+        if(img!=undefined){
+            return img;
+        }
+    }
+    //根据图片名称修改鼠标进入后和离开时图片颜色
+    function imgChangingByImgID(imgId,ismouseIn){
+        var img=getImgByImgID(imgId);
+        if(img==undefined){
+            return;
+        }
+        var src_orange="../个人主页/img/"+imgId+"-orange.png";
+        var src_white="../个人主页/img/"+imgId+".png";
+        if(ismouseIn){
+            img.src=src_orange;
+        }else{
+            img.src=src_white;
+        }
+    }
+
+    //根据图片名跳转到制定页面
+    function jumpToHtml(imgId) {
+        // body...
+        switch(imgId){
+            case "img1":
+            window.location.href="../个人主页/aboutme.html";
+            break;
+            case "img2":
+            window.location.href="../个人主页/work_dssj.html";
+            break;
+             case "img3":
+            window.location.href="../个人主页/contactme.html";
+            break;
+        }
+    }
+</script>
+</body>
+</html>
