@@ -1,0 +1,104 @@
+
+a {
+	white-space:nowrap;
+	font-family:'PT Serif', serif;
+	text-decoration:none;
+	color:white;
+	font-size: 20px;
+}
+.img1{
+	cursor: pointer;
+}
+.img2{
+	cursor: pointer;
+}
+.img3{
+	cursor: pointer;
+}
+.myHomePageP1{
+	top: 68px;
+	position: absolute;
+	left: 57px;
+}
+.myHomePageP1:hover{
+	font-size: 22px;
+	color: rgb(253,182,19)
+}
+
+.myHomePageP2{
+	top: 99px;
+    position: absolute;
+    left: 57px;
+}
+.myHomePageP2:hover{
+	font-size: 22px;
+	color: rgb(253,182,19)
+}
+
+.myHomePageP3{
+	top: 131px;
+	position: absolute;
+	left: 57px;
+}
+.myHomePageP3:hover{
+	font-size: 22px;
+	color: rgb(253,182,19)
+}
+
+.myPage1_div{
+	left: 1136px;
+	position: absolute;
+	top: 334px;
+}
+
+/*.myPage1_div:hover{
+	filter: brightness(0.4);
+}*/
+.myPage2_div{
+	left: 1136px;
+	position: absolute;
+	top: 364px;
+}
+/*.myPage2_div:hover{
+	filter: brightness(0.4);
+}*/
+.myPage3_div{
+	left: 1136px;
+	position: absolute;
+	top: 394px;
+}
+/*.myPage3_div:hover{
+	filter: brightness(0.4);
+}*/
+.myHomePageP4{
+	font-family:'PT Serif', serif;
+	position: absolute;
+	left: 9%;
+	top: 180px;
+	font-size: 35px;
+	color: rgb(253,182,19);
+}
+.myHomePageP5{
+	font-family:'PT Serif', serif;
+	position: absolute;
+	left: 19%;
+	top: 180px;
+	font-size: 35px;
+	color: white
+}
+.img1{
+	position: absolute;
+	left: 2%;
+	top: 78px;
+}
+.img2{
+	position: absolute;
+    left: -2%;
+    top: 111px;
+}
+
+.img3{
+	top: 142px;
+    position: absolute;
+    left: 0px;
+}
