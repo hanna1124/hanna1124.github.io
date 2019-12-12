@@ -55,13 +55,16 @@
 			top: 375px; 
 		}
 
-	.footer{
-			font-weight: lighter;
-			color: rgba(255,255,255,0.5);
-			font-size: 12px;
-			position: absolute;
-			left: 44%;
-			top:680px; 
+
+	div.footer{
+		font-weight: lighter;
+		color: rgba(255,255,255,0.5);
+		font-size: 12px;
+		position: absolute;
+		/* left: 42%; */
+		bottom: 10px;
+		width: 100%;
+		text-align: center;
 	}
 
 	.line{
