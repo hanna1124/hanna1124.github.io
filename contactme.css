@@ -127,9 +127,7 @@
     p span:nth-child(9){  
         -webkit-animation:jump 1s linear 0.8s infinite alternate;  
     }  
-     p span:nth-child(10){  
-        -webkit-animation:jump 1s linear 0.9s infinite alternate;  
-    }  
+   
 
     @-webkit-keyframes jump  
     {  
