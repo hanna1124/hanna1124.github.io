@@ -13,9 +13,9 @@ p{
 	}
 	.P2{
 		color: rgb(253,182,19);
-		font-size: 30px;
+		font-size: 40px;
 		position: absolute;
-		left: 22%;
+		left: 20%;
 			top: 100px; 
 	}
     div.footer{
@@ -68,39 +68,7 @@ p{
 		color: rgb(253,182,19);
 		font-size:22px;
 	}
-	/*nav {   
-			width: 100px;
-			height: 80px;
-			position: absolute;
-			left: 21%;
-			top: 240px;
-		}
-		nav ul {
-			list-style: none;
-			margin: 0px 0 0px 0px;
-			padding: 0; 
-		}
-	
-		nav ul li a:link, nav li a:visited {
-			font-family:'PT Serif', serif;
-			font-size: 12pt;
-			font-weight: bold;
-			display: block;
-			padding: 15px 15px 15px 15px;
-			background-color: none;
-			color: white;
-			text-decoration: none;
-		}
 
-		nav ul li a:hover, nav li a:active {
-			font-family:'PT Serif', serif;
-			font-size: 12pt;
-			font-weight: bold;
-			display: block;
-			padding: 3px 3px 3px 3px;
-			background-color: rgba(230,230,250,0.2);
-			color:rgb(253,182,19);
-		}*/
 		.h1{color: rgba(253,182,19,0.7);
 			position: absolute;
 			left: 30%;
@@ -131,3 +99,46 @@ p{
 	div.scroll::-webkit-scrollbar-thumb:hover {
 		background: #4b4855; 
 	}
+
+  p span{  
+        float:left;  
+        position: relative;
+        left: 22%;
+        top: 150px;  
+       /* font-weight: bolder;*/
+        font-family:'PT Serif', serif;
+       
+    }  
+
+    p span:nth-child(1){  
+        -webkit-animation:jump 1s linear 0s infinite alternate;  
+    }  
+
+    p span:nth-child(2){  
+        -webkit-animation:jump 1s linear 0.1s infinite alternate;  
+    }  
+
+    p span:nth-child(3){  
+        -webkit-animation:jump 01s linear 0.2s infinite alternate;  
+    }  
+
+    p span:nth-child(4){  
+        -webkit-animation:jump 1s linear 0.3s infinite alternate;  
+    }  
+
+  
+    @-webkit-keyframes jump  
+    {  
+        0%{  
+            top:0px;  
+            color:rgb(253,182,19);  
+        }  
+        50%{  
+            top:-10px;  
+            color:rgb(253,182,19);  
+        }  
+        100%{  
+            top:10px;  
+            color:rgb(253,182,19);  
+        }  
+    }  

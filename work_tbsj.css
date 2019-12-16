@@ -1,4 +1,5 @@
-	p{ font-family:'PT Serif', serif;
+p{
+		font-family:'PT Serif', serif;
 	}
 	.P1{
 		color: white;
@@ -12,10 +13,10 @@
 	}
 	.P2{
 		color: rgb(253,182,19);
-		font-size: 30px;
+		font-size: 40px;
 		position: absolute;
-		left: 22%;
-			top: 100px; 
+		left: 20%;
+		top: 100px; 
 	}
 	div.footer{
 		font-weight: lighter;
@@ -28,7 +29,7 @@
 		text-align: center;
 	}
 		
-	.导视设计{
+		.导视设计{
 		font-family:'PT Serif', serif;
 		text-decoration: none;
 		position: absolute;
@@ -67,87 +68,39 @@
 		color: rgb(253,182,19);
 		font-size:22px;
 	}
-/*	nav {   
-			width: 100px;
-			height: 80px;
-			position: absolute;
-			left: 21%;
-			top: 240px;
-		}
-		nav ul {
-			list-style: none;
-			margin: 0px 0 0px 0px;
-			padding: 0; 
-		}
 	
-		nav ul li a:link, nav li a:visited {
-			font-family:'PT Serif', serif;
-			font-size: 12pt;
-			font-weight: bold;
-			display: block;
-			padding: 15px 15px 15px 15px;
-			background-color: none;
-			color: white;
-			text-decoration: none;
-		}
-
-		nav ul li a:hover, nav li a:active {
-			font-family:'PT Serif', serif;
-			font-size: 12pt;
-			font-weight: bold;
-			display: block;
-			padding: 3px 3px 3px 3px;
-			background-color: rgba(230,230,250,0.2);
-			color:rgb(253,182,19);
-		}*/
-		
-		.h1{color: rgba(253,182,19,0.7);
+			.h1{color: rgba(253,182,19,0.7);
 			position: absolute;
 			left: 30%;
 			top: 0px;
 			font-size: 20px;
 		}
-		.logo{
-			width: 20%;
-			position: absolute;
-            left: 26%;
-            top:80px
-		}
-		.introduce{
-			color: white;
-			width: 40%;
-			position: absolute;
-			left: 48%;
-			top: 100px;
-			font-size: 20px;
-		}
-		
-			.GuidanceDesign2{
+		.img1{
 			width: 50%;
 			position: absolute;
-			left: 34%;
-			top: 630px
+			left: 30%;
+			top: 100px	
 		}
-			.GuidanceDesign3{
+		.img2{
 			width: 50%;
 			position: absolute;
-			left: 34%;
-			top: 280px
+			left: 30%;
+			top: 480px	
 		}
-		.GuidanceDesign1{
+
+		.img3{
 			width: 50%;
 			position: absolute;
-			left: 34%;
-			top: 980px
+			left:  30%;	
+		    top:860px
 		}
-		.GuidanceDesign4{
-			width: 50%;
+		.P3{color: rgb(255,255,255,0.5);
 			position: absolute;
-			left: 34%;
-			top: 1330px
+			left: 49%;
+			top: 1200px;
 		}
-	
-		div.scroll::-webkit-scrollbar {
+
+			div.scroll::-webkit-scrollbar {
 		width: 10px;
 	}
 
@@ -163,4 +116,46 @@
 	/*滚动条悬停后颜色Handle on hover */
 	div.scroll::-webkit-scrollbar-thumb:hover {
 		background: #4b4855; 
-	}s
+	}
+
+	 p span{  
+        float:left;  
+        position: relative;
+        left: 22%;
+        top: 150px;  
+   /*     font-weight: bolder;*/
+        font-family:'PT Serif', serif;
+       
+    }  
+
+    p span:nth-child(1){  
+        -webkit-animation:jump 1s linear 0s infinite alternate;  
+    }  
+
+    p span:nth-child(2){  
+        -webkit-animation:jump 1s linear 0.1s infinite alternate;  
+    }  
+
+    p span:nth-child(3){  
+        -webkit-animation:jump 1s linear 0.2s infinite alternate;  
+    }  
+
+    p span:nth-child(4){  
+        -webkit-animation:jump 1s linear 0.3s infinite alternate;  
+    }  
+
+    @-webkit-keyframes jump  
+    {  
+        0%{  
+            top:0px;  
+            color:rgb(253,182,19);  
+        }  
+        50%{  
+            top:-10px;  
+            color:rgb(253,182,19);  
+        }  
+        100%{  
+            top:10px;  
+            color:rgb(253,182,19);  
+        }  
+    }  

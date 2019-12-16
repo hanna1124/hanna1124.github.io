@@ -5,9 +5,17 @@
 	<title></title>
    <link rel="stylesheet" type="text/css" href="../个人主页/index.css">
    <link href="https://fonts.font.im/css?family=PT+Serif" rel="stylesheet">
+   <link rel="stylesheet" href="css/style.css">
 </head>
-<body style="background-color: rgb(40,39,47);">
-    <div class="myPage1_div"  onmouseenter="imgChangingByImgID('icon',true)" onmouseleave="imgChangingByImgID('icon',false)">
+<body  style="background-color: rgb(40,39,47);">
+    <div id="app" style="height: 100%;width: 100%;position: absolute;opacity:0.10;" >
+        
+    </div>
+    <script src='js/react.production.min.js'></script>
+    <script src='js/react-dom.production.min.js'></script>
+    <script  src="js/index.js"></script>
+
+    <div  class="myPage1_div"  onmouseenter="imgChangingByImgID('icon',true)" onmouseleave="imgChangingByImgID('icon',false)">
         <a href="../个人主页/aboutme.html"><p class="myHomePageP1">ABOUT ME</p></a>
         <img id="icon" class="img1 " style="cursor:hand" src="../个人主页/img/icon.png" width="40px" onclick="jumpToHtml('img1')">
     </div>
@@ -21,9 +29,9 @@
        <a  href="../个人主页/contactme.html"><p class="myHomePageP3">CONTACT ME</p></a>
        <img id="icon3" class="img3 " style="cursor:hand" src="../个人主页/img/icon3.png" width="40px" onclick="jumpToHtml('img3')">
    </div>
-    <img src="../个人主页/img/line(bg).png">
-    <p class="myHomePageP4">Personal</p>
-    <p class="myHomePageP5">Home Page</p>
+   <img src="../个人主页/img/line(bg).png">
+   <p class="myHomePageP4">Personal</p>
+   <p class="myHomePageP5">Home Page</p>
 </div>
 <script type="text/javascript">
 
@@ -59,7 +67,7 @@
             case "img2":
             window.location.href="../个人主页/work_dssj.html";
             break;
-             case "img3":
+            case "img3":
             window.location.href="../个人主页/contactme.html";
             break;
         }
